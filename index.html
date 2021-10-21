@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/Ghost.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--==================== BOOSTRAP ICONS ====================-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============--> 
+        <link rel="stylesheet" href="css/styles.css">
+
+        <title>Responsive Halloween Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="assets/img/Ghost.png" alt="" class="nav__logo-img">
+                    Halloween
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link" data-translate="Home"></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link" data-translate="About"></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#trick" class="nav__link" data-translate="Candys"></a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#new" class="nav__link" data-translate="New"></a>
+                        </li>
+                        <li class="nav__item">
+                            <i class='bi bi-translate button__icon nav__link' title="Traducir" onclick="change_lang()"></i>
+                        </li>
+
+                        <a href="#" class="button button--ghost" data-translate="Support"></a>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/img/Spider.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/Terrifyng Frankenstein.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title" data-translate="Terrifying Frankenstein"></h4>
+                                        <span class="home__details-subtitle" data-translate="Scary Monster"></span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Top #1 <span data-translate="Monsters"></span></h3>
+                                    <h1 class="home__title">
+                                        UOOOO <br> 
+                                        <span data-translate="TRICK OR"></span><br> 
+                                        <span data-translate="TREAT!!"></span></h1>
+                                    <p class="home__description" data-translate="It is a being created from different parts of corpses, which is given life by Victor Frankenstein (its creator) during an experiment."></p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button" data-translate="Book Now"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/Green Cat.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title" data-translate="Green Cat"></h4>
+                                        <span class="home__details-subtitle" data-translate="Scary Animal"></span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Top #2 <span data-translate="Candies"></span></h3>
+                                    <h1 class="home__title">
+                                        <span data-translate="BRING BACK"></span><br> 
+                                        <span data-translate="MY CARAMEL"></span><br> 
+                                        <span data-translate="YARN!!"></span>  
+                                    </h1>
+                                    <p class="home__description" data-translate="Their characteristics and capabilities, in many cases extraordinary, have caused problems for those who, seeing them as dark entities."></p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button" data-translate="Book Now"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/img/Voodoo Doll.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title" data-translate="Voodoo Doll"></h4>
+                                        <span class="home__details-subtitle" data-translate="Possessed Doll"></span>
+                                    </div>
+                                </div>
+
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">Top #3 <span data-translate="Accesories"></span></h3>
+                                    <h1 class="home__title">
+                                        <span data-translate="REAPPEAR IN"></span><br>  
+                                        <span data-translate="FRONT OF"></span><br> 
+                                        <span data-translate="YOU!!"></span> 
+                                    </h1>
+                                    <p class="home__description" data-translate="Voodoo is a religion native to West Africa, where it is still practiced today by members of the Ewé, Kabye, Mina and Fon ethnic groups from Togo and Benin."></p>
+
+                                    <div class="home__buttons">
+                                        <a href="#" class="button" data-translate="Book Now"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            
+            <!--==================== CATEGORY ====================-->
+            <section class="section category">
+                <h2 class="section__title">
+                    <span data-translate="Favorite Scare"></span><br> 
+                    <span data-translate="Category"></span>
+                </h2>
+
+                <div class="category__container container grid">
+                    <div class="category__data">
+                        <img src="assets/img/Scary Ghost.png" alt="" class="category__img">
+                        <h3 class="category__title" data-translate="Ghosts"></h3>
+                        <p class="category__description" data-translate="Choose the ghost, the scariest there are."></p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/Scary Pumpkin.png" alt="" class="category__img">
+                        <h3 class="category__title" data-translate="Pumpkins"></h3>
+                        <p class="category__description" data-translate="You look at the scariest pumpkins there is."></p>
+                    </div>
+
+                    <div class="category__data">
+                        <img src="assets/img/Hat Witch Purple Two.png" alt="" class="category__img">
+                        <h3 class="category__title" data-translate="Witch Hat"></h3>
+                        <p class="category__description" data-translate="Pick the most stylish witch hats our there."></p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="section about" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            <span data-translate="About"></span> Halloween
+                        </h2>
+                        <p class="about__description" data-translate="Night of all the saints, or all the dead, is celebrated on October 31 and it is a very fun international celebration, this celebration comes from ancient origins and is already celebrated by everyone."></p>
+                        <a href="#" class="button" data-translate="know more"></a>
+                    </div>
+
+                    <img src="assets/img/Abandoned well.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--==================== TRICK OR TREAT ====================-->
+            <section class="section trick" id="trick">
+                <h2 class="section__title" data-translate="Trick or Treat"></h2>
+
+                <div class="trick__container container grid">
+                    <div class="trick__content">
+                        <img src="assets/img/Owl.png" alt="" class="trick__img">
+                        <h3 class="new__title" data-translate="Owl"></h3>
+                        <span class="new__subtitle" data-translate="Candy"></span>
+                        <span class="trick__price">$12.32</span>
+
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon' ></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/Candy.png" alt="" class="trick__img">
+                        <h3 class="new__title" data-translate="Candy apple"></h3>
+                        <span class="new__subtitle" data-translate="Candy"></span>
+                        <span class="trick__price">$15.65</span>
+
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon' ></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/Black Cat.png" alt="" class="trick__img">
+                        <h3 class="new__title" data-translate="Black cat"></h3>
+                        <span class="new__subtitle" data-translate="Accesory"></span>
+                        <span class="trick__price">$11.28</span>
+
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon' ></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/Terrifying Pumpkin.png" alt="" class="trick__img">
+                        <h3 class="new__title" data-translate="Pumpkin"></h3>
+                        <span class="new__subtitle" data-translate="Accesory"></span>
+                        <span class="trick__price">$20.59</span>
+
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon' ></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/Death.png" alt="" class="trick__img">
+                        <h3 class="new__title" data-translate="Death"></h3>
+                        <span class="new__subtitle" data-translate="Candy"></span>
+                        <span class="trick__price">$15.90</span>
+
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon' ></i>
+                        </button>
+                    </div>
+
+                    <div class="trick__content">
+                        <img src="assets/img/Scary Frankenstein.png" alt="" class="trick__img">
+                        <h3 class="new__title" data-translate="Frankenstein"></h3>
+                        <span class="new__subtitle" data-translate="Accesory"></span>
+                        <span class="trick__price">$45.20</span>
+
+                        <button class="button trick__button">
+                            <i class='bx bx-cart-alt trick__icon' ></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOUNT ====================-->
+            <section class="section discount">
+                <div class="discount__container container grid">
+                    <div class="discount__data">
+                        <h2 class="discount__title">
+                            <span data-translate="50% Discount"></span><br> 
+                            <span data-translate="On New Products"></span>
+                        </h2>
+                        <a href="#new" class="button" data-translate="Go to new"></a>
+                    </div>
+
+                    <img src="assets/img/Broom.png" alt="" class="discount__img">
+                </div>
+            </section>
+
+            <!--==================== NEW ARRIVALS ====================-->
+            <section class="section new" id="new">
+                <h2 class="section__title" data-translate="New Arrivals"></h2>
+
+                <div class="new__container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag" data-translate="New"></div>
+                                <img src="assets/img/Skull.png" alt="" class="new__img">
+                                <h3 class="new__title" data-translate="Skull poetry"></h3>
+                                <span class="new__subtitle" data-translate="Accesory"></span>
+                            
+                                <div class="new__prices">
+                                    <span class="new__price">$14.99</span>
+                                    <span class="new__discount">$29.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag" data-translate="New"></div>
+                                <img src="assets/img/Funko Cat.png" alt="" class="new__img">
+                                <h3 class="new__title" data-translate="Funko cat"></h3>
+                                <span class="new__subtitle" data-translate="Accesory"></span>
+                            
+                                <div class="new__prices">
+                                    <span class="new__price">$12.99</span>
+                                    <span class="new__discount">$22.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag" data-translate="New"></div>
+                                <img src="assets/img/Butcher Tree.png" alt="" class="new__img">
+                                <h3 class="new__title" data-translate="Butcher tree"></h3>
+                                <span class="new__subtitle" data-translate="Accesory"></span>
+                            
+                                <div class="new__prices">
+                                    <span class="new__price">$13.99</span>
+                                    <span class="new__discount">$27.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag" data-translate="New"></div>
+                                <img src="assets/img/Jason Mask.png" alt="" class="new__img">
+                                <h3 class="new__title" data-translate="Jason mask"></h3>
+                                <span class="new__subtitle" data-translate="Accesory"></span>
+                            
+                                <div class="new__prices">
+                                    <span class="new__price">$9.99</span>
+                                    <span class="new__discount">$19.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag" data-translate="New"></div>
+                                <img src="assets/img/Scarecrow.png" alt="" class="new__img">
+                                <h3 class="new__title" data-translate="Scarecrow"></h3>
+                                <span class="new__subtitle" data-translate="Accesory"></span>
+                            
+                                <div class="new__prices">
+                                    <span class="new__price">$7.99</span>
+                                    <span class="new__discount">$14.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+
+                            <div class="new__content swiper-slide">
+                                <div class="new__tag" data-translate="New"></div>
+                                <img src="assets/img/Trick Two.png" alt="" class="new__img">
+                                <h3 class="new__title" data-translate="Treat"></h3>
+                                <span class="new__subtitle" data-translate="Candy"></span>
+                            
+                                <div class="new__prices">
+                                    <span class="new__price">$11.99</span>
+                                    <span class="new__discount">$16.99</span>
+                                </div>
+
+                                <button class="button new__button">
+                                    <i class='bx bx-cart-alt new__icon'></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== OUR NEWSLETTER ====================-->
+            <section class="section newsletter">
+                <div class="newsletter__container container">
+                    <h2 class="section__title" data-translate="Our Newsletter"></h2>
+                    <p class="newsletter__description" data-translate="Promotion new products and sales. Directly to your inbox."></p>
+
+                    <form action="" class="newsletter__form">
+                        <input type="email" placeholder="Enter your email" class="newsletter__input" id="newsletter__input">
+                        <a href="#" class="button" data-translate="Subscribe"></a>
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">
+                        <img src="assets/img/Ghost.png" alt="" class="footer__logo-img">
+                        Halloween
+                    </a>
+
+                    <p class="footer__description" data-translate="Enjoy the scariest night of your life."></p>
+
+                    <div class="footer__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-facebook' ></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-instagram' ></i>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" class="footer__social-link">
+                            <i class='bx bxl-twitter' ></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title" data-translate="About"></h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link" data-translate="About us"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Features"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link" data-translate="News"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title" data-translate="Our Services"></h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Pricing"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Discounts"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Shipping mode"></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title" data-translate="Our Company"></h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Blog"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Our mission"></a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link" data-translate="Contact us"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <span class="footer__copy">&#169; Sebastián Ibagué Castro. <span data-translate="All rigths reserved."></span></span>
+
+            <img src="assets/img/Spectre.png" alt="" class="footer__img-one">
+            <img src="assets/img/Spectre Two.png" alt="" class="footer__img-two">
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scroll__icon'></i>
+        </a>
+        
+        <!--=============== SCROLL REVEAL ===============-->
+        <script src="js/scrollreveal.min.js"></script>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="js/swiper-bundle.min.js"></script>
+        
+        <!--=============== MAIN JS ===============-->
+        <script src="js/main.js"></script>
+
+         <!--=============== JQUERY 3.5.1 ===============-->
+         <script src="js/jquery.min.js"></script>
+
+        <!--=============== CHANGE LANGUAGE ===============-->
+        <script src="js/language.js"></script>
+    </body>
+</html>
